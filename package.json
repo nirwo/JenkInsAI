@@ -1,12 +1,15 @@
 {
-  "name": "demo-ci",
+  "name": "jenkinsai-pipeline",
   "version": "1.0.0",
+  "description": "🤖 JenkInsAI - Intelligent CI/CD Pipeline with techy dashboard",
   "private": true,
   "scripts": {
     "test": "jest --ci",
     "build": "node scripts/build.js",
-    "lint": "echo \"(optional) add eslint here\" && exit 0"
+    "lint": "echo \"🔍 Linting code... (configure ESLint for production)\" && exit 0",
+    "start": "echo \"🚀 Starting JenkInsAI dashboard...\" && open dist/index.html"
   },
+  "keywords": ["jenkins", "ci", "cd", "pipeline", "automation", "techy"],
   "devDependencies": {
     "jest": "^29.7.0",
     "jest-junit": "^16.0.0"
