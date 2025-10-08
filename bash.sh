@@ -21,8 +21,7 @@ command -v npm  >/dev/null 2>&1 || { err "npm is required."; exit 1; }
 say "Using Node: $(node -v) / npm: $(npm -v)"
 say "Creating project in: $PROJECT_DIR"
 
-mkdir -p "$PROJECT_DIR"
-cd "$PROJECT_DIR"
+
 
 # -------- Files --------
 say "Writing project files..."
