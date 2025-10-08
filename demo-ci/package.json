@@ -1,0 +1,14 @@
+{
+  "name": "demo-ci",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "jest --ci",
+    "build": "node scripts/build.js",
+    "lint": "echo \"(optional) add eslint here\" && exit 0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-junit": "^16.0.0"
+  }
+}

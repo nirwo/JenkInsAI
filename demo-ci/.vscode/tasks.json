@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Pass build (local)",
+      "type": "shell",
+      "command": "./run-pass.sh",
+      "problemMatcher": []
+    },
+    {
+      "label": "Fail build (local)",
+      "type": "shell",
+      "command": "./run-fail.sh",
+      "problemMatcher": []
+    }
+  ]
+}
